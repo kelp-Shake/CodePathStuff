@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![walk] (https://github.com/kelp-Shake/CodePathStuff/blob/main/walk.gif)
+![](https://github.com/kelp-Shake/CodePathStuff/blob/main/walk.gif)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with OBS Studio 
 <!-- Recommended tools:
