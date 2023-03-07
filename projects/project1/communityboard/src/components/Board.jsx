@@ -1,11 +1,11 @@
 import React from "react";
-import '/src/index.css'
 const Board = (props) => {
   return (
     <div className="food-card">
-       <img className="food-img" src={`src/assets/${props.image}`} />
+      <img className="food-img" src={props.img} />
       <p className="name">{props.name}</p>
       <p className="cuisine">{props.cuisine}</p>
+      <button className="button" onclick="window.location.href='{`${props.nMW}`}'">Click me</button>
     </div>
   );
 };

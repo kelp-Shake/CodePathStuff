@@ -2,16 +2,16 @@ import "./App.css";
 import Board from "./components/Board";
 
 const imgarr = [
-  ".assets/aroy.jpeg",
-  ".assets/bbq.jpeg",
-  ".assets/chick.jpeg",
-  ".assets/cpdiner.jpeg",
-  ".assets/jerk.jpeg",
-  ".assets/jumbo.jpeg",
-  ".assets/krazi.jpeg",
-  ".assets/latao.jpeg",
-  ".assets/marathon.jpeg",
-  ".assets/tacos.jpeg",
+  "/src/images/aroy.jpeg",
+  "/src/images/bbq.jpeg",
+  "/src/images/chick.jpeg",
+  "/src/images/cpdiner.jpeg",
+  "/src/images/jerk.jpeg",
+  "/src/images/jumbo.jpeg",
+  "/src/images/krazi.jpeg",
+  "/src/images/latao.jpeg",
+  "/src/images/marathon.jpeg",
+  "/src/images/tacos.jpeg",
 ];
 const namearr = [
   "Aroy Thai",
@@ -57,10 +57,9 @@ const App = () => {
     <div className="App">
       <h1>Top 10 Food Places in College Park, MD</h1>
       <div id="food-container">
-          <Board image = "src/assets/aroy.jpeg" name= "Aroy Thai" cuisine= "Thai" />
-
-          <Board food-img = "src/assets/aroy.jpeg" name= "Kangnam BBQ" cuisine= "Korean" />
+          {imgarr.map((image, i) => <Board key={i} img = {image} name = {namearr[i]} cuisine = {cuisinearr[i]}/>)}
       </div>
+
     </div>
   );
 };
