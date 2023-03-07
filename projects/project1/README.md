@@ -10,7 +10,7 @@ Time spent: **2** hours spent in total
 
 The following **required** functionality is completed:
 
-- [X ] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
 - [ ] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
@@ -20,7 +20,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [X ] List anything else that you added to improve the site's functionality!
+* [] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
