@@ -1,0 +1,46 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+.App {
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #000;
+}
+h1 {
+  color: yellow;
+  font-size: 50px;
+  text-shadow: black 1px 0 10px;
+  padding-bottom: 18px;
+  margin-left: 50px;
+}
+body {
+  font-family: 'Cabin';
+  background-color: blue;
+}
+#food-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.food-img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #FFFFFF;
+}
+
+.food-card {
+  background-color: #FFFFFF;
+  padding: 1%;
+  margin: 1%;
+  width: 300px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.food-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px lightblue;
+}
+
