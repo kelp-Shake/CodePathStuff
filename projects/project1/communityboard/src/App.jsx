@@ -50,14 +50,12 @@ const websitearr = [
   "https://www.tacosalamadre.com/",
 ];
 
-
-
 const App = () => {
   return (
     <div className="App">
       <h1>Top 10 Food Places in College Park, MD</h1>
       <div id="food-container">
-          {imgarr.map((image, i) => <Board key={i} img = {image} name = {namearr[i]} cuisine = {cuisinearr[i]}/>)}
+          {imgarr.map((image, i) => <Board key={i} img = {image} name = {namearr[i]} cuisine = {cuisinearr[i]} website = {websitearr[i]}/>)}
       </div>
 
     </div>

@@ -5,7 +5,7 @@ const Board = (props) => {
       <img className="food-img" src={props.img} />
       <p className="name">{props.name}</p>
       <p className="cuisine">{props.cuisine}</p>
-      <button className="button" onclick="window.location.href='{`${props.nMW}`}'">Click me</button>
+      <button className="button" onclick={`window.location.href= ${props.website}`}>View website</button>
     </div>
   );
 };
