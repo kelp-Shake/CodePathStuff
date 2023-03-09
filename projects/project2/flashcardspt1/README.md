@@ -1,16 +1,16 @@
-# Web Development Project 2 - *Name of App Here*
+# Web Development Project 2 - *Flashcards*
 
-Submitted by: **Your Name Here**
+Submitted by: **Rachel Afforo**
 
-This web app: **insert description**
+This web app: **Study for the exam with this flashcard app**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
+- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
 - [ ] **A single card at a time is displayed, only showing one of the components of the information pair**
 - [ ] **A list of card pairs is created**
 - [ ] **Clicking on the card shows the corresponding component of the information pair**
@@ -24,7 +24,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] List anything else that you added to improve the site's functionality!
+* [ ] fix card listing 
 
 ## Video Walkthrough
 
